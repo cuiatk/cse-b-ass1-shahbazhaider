@@ -153,12 +153,12 @@ public class TurtleSoup {
     public static void main(String args[]) {
         DrawableTurtle turtle = new DrawableTurtle();
 
-       drawSquare(turtle, 160);
+      // drawSquare(turtle, 160);
 
         // draw the window
         turtle.draw();
         
-       //drawRegularPolygon(turtle,5, 160);
+       drawRegularPolygon(turtle,5, 160);
       // drawPersonalArt(turtle);
        
         turtle.draw();
